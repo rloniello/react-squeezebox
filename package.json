@@ -1,0 +1,38 @@
+{
+  "name": "react-squeezebox",
+  "version": "0.2.1",
+  "description": "A Lightweight Dynamic React Accordion Flexbox Container",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/rloniello/react-squeezebox/issues"
+  },
+  "keywords": [
+    "flexbox",
+    "accordion",
+    "squeezebox",
+    "component",
+    "react"
+  ],
+  "author": "Russell Loniello <rloniello@gmail.com>",
+  "homepage": "https://github.com/rloniello/react-squeezebox",
+  "license": "MIT",
+
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+  },
+   "devDependencies": {
+     "react": "^16.3.2",
+     "react-dom": "^16.3.2",
+  },
+}
