@@ -29,7 +29,7 @@ ____
 
 
 **Frames**
-> An Array of `frame` objects, each representing different flex panel.
+> An Array of `frame` objects, each representing a different flex panel.
 
 **frame**
 
@@ -56,38 +56,37 @@ ____
 
 ```js
 settings = {{
-  /* Should the previously active frames close when a new frame is opened ? */
+  // Should the previously active frames close when a new frame is opened ?
   shouldCloseActiveElement: false,
-  /* Default Flexbox Flex property for each frame */
+  // Default Flexbox Flex property for each frame
   frameFlex: 1,
-  /* How much should each frame expand when open? */
+  // How much should each frame expand when open?
   frameExpansion: 15,
-  /* CSS Transition when the frame becomes active:
-  Here are some Built in types,
+  // CSS Transition when the frame becomes active:
+  // Here are some Built in types,
 
-  switch(transition) {
-    case 'slam':
-      return `flex 0.3s cubic-bezier(.85,.66,0,.1)`
-    case 'fast':
-      return `flex 0.3s cubic-bezier(.55,.62,.06,.86)`
-    case 'linear':
-      return `flex 0.5s cubic-bezier(0,0,1,1)`
-    case 'ease':
-      return `flex 0.5s cubic-bezier(0.25,0.1,0.25,1))`
-    case 'ease-in':
-      return `flex 0.5s cubic-bezier(0.42,0,1,1)`
-    case 'ease-out':
-      return `flex 0.5s cubic-bezier(0,0,0.58,1)`
-    default:
-      return transition
-  }
+  // switch(transition) {
+  //  case 'slam':
+  //    return `flex 0.3s cubic-bezier(.85,.66,0,.1)`
+  //  case 'fast':
+  //    return `flex 0.3s cubic-bezier(.55,.62,.06,.86)`
+  //  case 'linear':
+  //    return `flex 0.5s cubic-bezier(0,0,1,1)`
+  //  case 'ease':
+  //    return `flex 0.5s cubic-bezier(0.25,0.1,0.25,1))`
+  //  case 'ease-in':
+  //    return `flex 0.5s cubic-bezier(0.42,0,1,1)`
+  //  case 'ease-out':
+  //    return `flex 0.5s cubic-bezier(0,0,0.58,1)`
+  //  default:
+  //    return transition
+  //}
 
-  You can define your own, i.e.
-  transition: 'flex 0.5s cubic-bezier(0,0,0.58,1)'
+  //You can define your own, i.e.
+  //transition: 'flex 0.5s cubic-bezier(0,0,0.58,1)'
 
-  Otherwise the transition will be immediate!
+  //Otherwise the transition will be immediate!
 
-  */
   transition: 'ease-out'
  }}
 ```
