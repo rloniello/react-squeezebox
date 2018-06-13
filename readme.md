@@ -55,7 +55,7 @@ ____
 > Settings of the behavior of the squeezebox component
 
 ```js
-settings = {{
+settings = {
   // Should the previously active frames close when a new frame is opened ?
   shouldCloseActiveElement: false,
   // Default Flexbox Flex property for each frame
@@ -88,7 +88,7 @@ settings = {{
   //Otherwise the transition will be immediate!
 
   transition: 'ease-out'
- }}
+ }
 ```
 
 
