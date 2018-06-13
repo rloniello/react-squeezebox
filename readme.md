@@ -18,6 +18,8 @@ ____
 ### Usage
 
 ```js
+import Squeezebox from 'react-squeezebox';
+
 <Squeezebox className={} style={} frames={[{},{}]} settings={} />
 ```
 
