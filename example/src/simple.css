@@ -1,0 +1,27 @@
+
+.first {
+  margin: 0 auto;
+  width: 85%;
+  height: auto;
+  background-color: grey;
+}
+
+/* All Squeezebox Elements */
+.squeezeboxElement {
+
+}
+
+/* All squeezebox Element(s)'s children */
+.squeezeboxElement * {
+
+}
+
+/* Active Squeezebox Element(s) */
+.squeezebox-active {
+
+}
+
+/* All Active Squeezebox Children */
+.squeezebox-active * {
+
+}
