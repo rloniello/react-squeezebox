@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "transpile": "babel src -d dist --copy-files"
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,10 @@
   "author": "Russell Loniello <rloniello@gmail.com>",
   "homepage": "https://github.com/rloniello/react-squeezebox",
   "license": "MIT",
+  "peerDependencies": {
+  "react": "^16.4.0",
+  "react-dom": "^16.4.0"
+},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
