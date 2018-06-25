@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class SqueezeboxElement extends React.Component {
+class SqueezeboxElement extends React.Component {
     /* RENDER */
   render() {
     const activeClassName = this.props.className + ' squeezebox-active'
