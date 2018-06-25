@@ -1,7 +1,7 @@
 # React Squeezebox
 
 ### About
-![Non collapsing]((https://github.com/rloniello/react-squeezebox/tree/master/example/src/imgs/rainbow/squeezebox-noncollapse.gif)
+![Non collapsing](https://github.com/rloniello/react-squeezebox/tree/master/example/src/imgs/rainbow/squeezebox-noncollapse.gif)
 
 **React Squeezebox** is a lightweight and versatile 'accordion-style' flexbox container built for React. *React Squeezebox* makes it easy to create collapsible 'panes' that can hold another component, images, text and much more!
 
