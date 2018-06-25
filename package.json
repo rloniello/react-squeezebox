@@ -1,6 +1,6 @@
 {
   "name": "react-squeezebox",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "A Lightweight Dynamic React Accordion Flexbox Container",
   "main": "./lib/index.js",
   "scripts": {
