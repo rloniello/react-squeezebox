@@ -9,6 +9,6 @@
     "react-squeezebox": "^0.2.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start"
   }
 }
